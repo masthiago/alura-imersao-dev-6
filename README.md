@@ -2,6 +2,10 @@
 
 Arquivos de projetos produzidos durante a imersão serão adicionados nesse repositório.
 
+Todo o material produzido durante a imersão será publicados página do GitPages abaixo.
+
+[https://masthiago.github.io/aluta-imersao-dev-6/](https://masthiago.github.io/aluta-imersao-dev-6/)
+
 
 ## Material
 
