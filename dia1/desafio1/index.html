@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura - Imersão Dev 6a Ed. - Desafio 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas v2 (Usuário digitando)
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+      </a>
+      <div class="form">
+        <label class="label" for="quotation" class="">Cotação</label>
+        <input class="input" type="number" id="quotation" placeholder="Valor da contação em R$">
+        <span class="help">Digite apenas valores numéricos. Para casas decimais use . no lugar de ,</span>
+        
+        <label class="label" for="price">Preço</label>
+        <input class="input" type="number" id="price" placeholder="Preço em moeda estrangeira">
+        <span class="help">Valor de um produto em moeda estrangeira, como dolar ou euro.</span>
+        
+        <label class="label" for="converted">Convertido</label>
+        <input class="input" type="text" id="converted" disabled>
+        <span class="help error" id="error"></span>
+
+        <button class="button" id="calc">Calcular</button>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
