@@ -21,7 +21,7 @@ Todo o material produzido durante a imersão será publicados página do GitPage
 #### Desafios desta aula!
 
 * [Adicionar outras moedas para converter](https://masthiago.github.io/aluta-imersao-dev-6/dia1/desafio1/index.html);
-* Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra
+* [Conversor de quilômetros para anos luz e verificar o tempo que demora para ir de uma estrela para outra](https://masthiago.github.io/aluta-imersao-dev-6/dia2/desafio1/index.html);
 * Conversor de temperaturas entre fahrenheit, kelvin e celsius;
 * Adicionar uma linha ao projeto desenvolvido para que apareça o valor em bitcoin.
 
