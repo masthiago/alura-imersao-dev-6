@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura - Imersão Dev 6a Ed. - Desafio 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Temperaturas
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+            alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="temperature.png">
+    </a>
+
+    <div class="container form">
+        <label for="temperature" class="label">Temperatura</label>
+        <input type="text" id="temperature" class="input">
+
+        <div>
+            <p>Qual tipo de temperatura você está informando?</p>
+            <div>
+                <input type="radio" name="typeof" id="celsius" value="celsius" checked>
+                <label for="celsius">celsius</label>
+            </div>
+            <div>
+                <input type="radio" name="typeof" id="fahrenheit" value="fahrenheit">
+                <label for="fahrenheit">fahrenheit</label>
+            </div>
+            <div>
+                <input type="radio" name="typeof" id="kelvin" value="kelvin">
+                <label for="kelvin">kelvin</label>
+            </div>
+        </div>
+
+        <div>
+            <p>Resultados:</p>
+            <div>
+                <label for="celsiusres">celsius</label>
+                <input type="text" name="celsiusres" id="celsiusres" disabled>
+            </div>
+            
+            <div>
+                <label for="fahrenheitres">fahrenheit</label>
+                <input type="text" name="fahrenheitres" id="fahrenheitres" disabled>
+            </div>
+            
+            <div>
+                <label for="kelvinres">kelvin</label>
+                <input type="text" name="kelvinres" id="kelvinres" disabled>
+            </div>
+        </div>
+        
+        <button id="calc" class="button">Calcular</button>
+
+        <p id="error"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
